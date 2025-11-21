@@ -1,0 +1,49 @@
+<!DOCTYPE html> <!-- Declara ao navegador que este é um documento HTML5. -->
+<html lang="pt-br"> <!-- Elemento raiz da página, define o idioma como Português do Brasil para acessibilidade e SEO. -->
+<head> <!-- Seção que contém informações sobre a página, não visíveis no conteúdo. -->
+    <meta charset="UTF-8"> <!-- Define o conjunto de caracteres para UTF-8, permitindo acentos e símbolos especiais. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna a página responsiva, ajustando a largura e o zoom inicial para o dispositivo. -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo de estilos CSS, que define a aparência da página. -->
+    <title>Base de Conhecimento</title> <!-- Título que aparece na aba ou janela do navegador. -->
+</head> <!-- Fim da seção <head>. -->
+<body> <!-- Contém todo o conteúdo visível da página web. -->
+    <header> <!-- Define o cabeçalho da página (semanticamente correto para esta área). -->
+        <h1>Base de Conhecimento</h1> <!-- Título principal da página, o mais importante para os mecanismos de busca. -->
+        <div> <!-- Um contêiner genérico para agrupar o campo de busca e o botão. -->
+            <input type="text" placeholder="Digite uma linguagem de programação" id="campoBusca"> <!-- Cria um campo de entrada de texto com uma dica (placeholder). -->
+            <button id="botao-busca">Buscar</button> <!-- Cria um botão. O evento de busca agora é automático no input. -->
+        </div> <!-- Fim do contêiner da busca. -->
+    </header> <!-- Fim do cabeçalho. -->
+    
+    <main> <!-- Define o conteúdo principal e central da página. -->
+        <section class="card-container">
+            <!-- <article class="card">
+                <h2>JavaScript</h2>
+                <p>1995</p>
+                <p>JavaScript é uma linguagem de programação</p>
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">Saiba mais</a>
+            </article> -->
+
+            <!-- <article class="card">
+                <h2>Python</h2>
+                <p>1991</p>
+                <p>Python é uma linguagem de programação</p>
+                <a href="https://docs.python.org/pt-br/3.14/" target="_blank">Saiba mais</a>
+            </article> -->
+        </section> <!-- Uma seção dentro do conteúdo principal. Atualmente vazia, pronta para receber conteúdo. -->
+    </main> <!-- Fim do conteúdo principal. -->
+
+    <footer class="footer"> <!-- Define o rodapé da página. A classe 'footer' é para estilização no CSS. -->
+        <ul class="footer-links"> <!-- Cria uma lista não ordenada. A classe 'footer-links' é para estilização. -->
+            <li> <!-- Define um item da lista. -->
+                <a href="https://github.com/guilhermeonrails">GitHub</a> <!-- Cria um link (âncora) para o endereço no 'href'. -->
+            </li> <!-- Fim do primeiro item da lista. -->
+            <li> <!-- Define outro item da lista. -->
+                <a href="https://www.Alura.com.br">alura</a> <!-- Cria outro link. -->
+            </li> <!-- Fim do segundo item da lista. -->
+        </ul> <!-- Fim da lista de links. -->
+    </footer> <!-- Fim do rodapé. -->
+    <script src="script.js"></script>
+
+</body> <!-- Fim do corpo da página. -->
+</html> <!-- Fim do documgento HTML. -->
